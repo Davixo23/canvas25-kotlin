@@ -65,10 +65,12 @@ class Lienzo2(context : Context) : View(context) {
             inicio2,
             posicion2,pintadoTexto)
         // cargar la imagen a partir de un btimap
-        //val bitmap = BitmapFactory.decodeResource(resources, R.drawable.pedro)
-        //val escaladaBitmap = Bitmap.createScaledBitmap(bitmap,
-        //    400, 300, false)
-        //canvas.drawBitmap(escaladaBitmap, 50f, 50f, pintadoBordeImg)
+        val bitmap = BitmapFactory.decodeResource(resources, R.drawable.pedro)
+        val escaladaBitmap = Bitmap.createScaledBitmap(bitmap,
+            200,
+            200,
+            false)
+        canvas.drawBitmap(escaladaBitmap, 50f, 50f, pintadoBordeImg)
 
 
 
