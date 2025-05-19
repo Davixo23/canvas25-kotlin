@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         //layout.addView(ejemploCanvas)
 
         val lienzo = Lienzo2(this)
-        //layout.addView(lienzo)
+        layout.addView(lienzo)
 
         btn1.setOnClickListener {
             val intent = Intent(this, ImagenActivity::class.java)
