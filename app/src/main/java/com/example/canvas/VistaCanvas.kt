@@ -15,7 +15,7 @@ class VistaCanvas(context : Context) : View(context) {
             style= Paint.Style.FILL
         }
         val pintura2 = Paint().apply{
-            color = Color.BLACK
+            color = Color.WHITE
             style= Paint.Style.FILL
             textSize = 50f
         }
