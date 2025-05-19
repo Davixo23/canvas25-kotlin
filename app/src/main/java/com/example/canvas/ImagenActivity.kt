@@ -34,7 +34,7 @@ class ImagenActivity : AppCompatActivity() {
                     Rotate(180),
                     RoundedCorners(40),
                     CircleCrop()
-                ))
+                )).into(img)
 
         }
     }
