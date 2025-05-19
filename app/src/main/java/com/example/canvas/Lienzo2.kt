@@ -51,10 +51,10 @@ class Lienzo2(context : Context) : View(context) {
         val text2 = "Hola Pedro"
         // inicio
         val inicio = 550f
-        val inicio2 = 150f
+        val inicio2 = 250f
         // posicion en el trazo
         val posicion = -20f
-        val posicion2= 25f
+        val posicion2= 30f
         canvas.drawTextOnPath(text,
             path,
             inicio,
