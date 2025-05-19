@@ -16,10 +16,10 @@ class MainActivity : AppCompatActivity() {
 
         // agregamos el lienzo al layout principal y mostramos el dibujo
         val layout = findViewById<LinearLayout>(R.id.layout_principal)
-        //layout.addView(ejemploCanvas)
+        layout.addView(ejemploCanvas)
 
         val linezo = Lienzo2(this)
-        layout.addView(linezo)
+        //layout.addView(linezo)
 
         btn1.setOnClickListener {
             val intent = Intent(this, ImagenActivity::class.java)
