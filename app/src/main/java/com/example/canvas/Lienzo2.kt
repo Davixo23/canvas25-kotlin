@@ -70,7 +70,7 @@ class Lienzo2(context : Context) : View(context) {
             200,
             200,
             false)
-        canvas.drawBitmap(escaladaBitmap, 50f, 50f, pintadoBordeImg)
+        canvas.drawBitmap(escaladaBitmap, 150f, 100f, pintadoBordeImg)
 
 
 
