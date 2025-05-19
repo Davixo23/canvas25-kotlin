@@ -31,7 +31,7 @@ class ImagenActivity : AppCompatActivity() {
             Glide.with(this)
                 .load(img.drawable)
                 .transform(MultiTransformation(
-                    Rotate(180),
+                    Rotate(100),
                     RoundedCorners(40),
                     CircleCrop()
                 )).into(img)
